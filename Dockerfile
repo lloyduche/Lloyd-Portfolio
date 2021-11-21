@@ -16,12 +16,8 @@ RUN dotnet build "Lloyd.csproj" -c Release -o /app/build
 FROM build AS publish
 RUN dotnet publish "Lloyd.csproj" -c Release -o /app/publish
 
-FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS runtime
-WORKDIR /data
-COPY --from=publish /src/Lloyd/Data/JsonFile/Data.json
-
-
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Lloyd.dll"]
+#ENTRYPOINT ["dotnet", "Lloyd.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet Lloyd.dll
