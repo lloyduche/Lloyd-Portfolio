@@ -1,0 +1,68 @@
+[
+	{
+		"FirstName": "Eugene Lloyd Uche",
+		"JobTitle": "Software Engineer",
+		"Email": "eugenelloyduche@gmail.com",
+		"PhotoUrl": "images/image-02.png",
+		"UserName": "eugenelloyduche@gmail.com",
+		"Projects": [
+			{
+				"ProjectName": "Livestock E-Commerce System",
+				"Description": "An online platform that intends to provide an end-to-end solution toenable buy and sell of quality livestock from a local farmer directlyto a remote intending buyer\r\n",
+				"Link": "http://livestockfarms.herokuapp.com/",
+				"PhotoUrlsm": "images/livestockfarm-01.jpg ",
+				"PhotoUrlbg": "images/livestock.png",
+				"YearCreated": "May 2021"
+			},
+			{
+				"ProjectName": "Portfolio Management System",
+				"Description": "Using the ASP.NET MVC, this project was a simple portfolio to showcase my details and professional qualifications as well as my educational background.\r\n",
+				"Link": "https://github.com/lloyduche/c-vee",
+				"PhotoUrlsm": "images/ayi-small.png",
+				"PhotoUrlbg": "images/ayiabg.png",
+				"YearCreated": "August 2021"
+			},
+			{
+				"ProjectName": "E-Library Management System",
+				"Description": "A model of a basic library for Users to either download a free e-book or get a hard copy. \r\n",
+				"PhotoUrlsm": "images/library-small.png",
+				"PhotoUrlbg": "images/library.png",
+				"Link": "https://github.com/lloyduche/E-Library",
+				"YearCreated": "June 2021"
+			}
+		],
+		"Experiences": [
+			{
+				"JobTitle": "Software Developer",
+				"Description": "A member of the microservice team that resolve, modify, and implement new features into the service.\r\n Worked closely with other developers in the other team, project manager, testers to resolve issues. \r\n Integrating third party APIs into the microservice project. \r\n",
+				"Employer": "Coure Technologies",
+				"YearStarted": "August 2021",
+				"YearEnded": "October 2021"
+			},
+			{
+				"JobTitle": "Software Developer",
+				"Description": "Implementing technical designs and requirements. \r\n Collaborating with other engineers, project managers, testers to resolve issues. \r\n Adding more functionalities to an existing codebase. \r\n Led a small sized team to execute projects. \r\n",
+				"Employer": "Decagon Institute",
+				"YearStarted": "March 2021",
+				"YearEnded": "October 2021"
+			},
+			{
+				"JobTitle": "IT Analyst and EndUser Support",
+				"Description": "Determine and execute changes to hardware, software, applications, or systems. \r\n I collaborated with other IT teams on new projects. \r\n Troubleshoot issue requests and maintain inventory. \r\n Performed User Administrative task. \r\n",
+				"Employer": "First Bank of Nigeria",
+				"YearStarted": "Dec 2019",
+				"YearEnded": "Mar 2021"
+			}
+		],
+		"Educations": [
+			{
+				"Discipline": "Computer Science",
+				"InstitutionName": "Imo State University",
+				"Degree": "B.Sc.",
+				"YearStarted": "2013",
+				"YearEnded": "2017"
+			}
+
+		]
+	}
+]
