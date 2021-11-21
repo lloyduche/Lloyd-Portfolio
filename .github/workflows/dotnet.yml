@@ -1,12 +1,12 @@
-name: .NET
+name: llyoldCI
 
 on:
   push:
     branches: [ main ]
   
 jobs:
-  build_lloyd-porfolio:
-    runs-on: self-hosted
+  build:
+    runs-on: ubuntu-latest
     steps:
      - uses: actions/checkout@v1
      - name: Build and deploy the Docker image
